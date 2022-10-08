@@ -1,0 +1,37 @@
+1)Supervised learning, also known as supervised machine learning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately.It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process. We know the correct answers, the algorithm iteratively makes predictions on the training data and is corrected by the teacher.
+
+2)MACHINE LEARNING IN HEALTHCARE
+i)Predicting and treating disease
+ii)Providing medical imaging and diagnostics
+iii)Discovering and developing new drugs
+iv)Organizing medical records
+
+3)One practical example of supervised learning problems is predicting house prices. How is this achieved? First, we need data about the houses: square footage, number of rooms, features, whether a house has a garden or not, and so on. We then need to know the prices of these houses, i.e. the corresponding labels.
+
+4)A regression problem is when the output variable is a real or continuous value, such as “salary” or “weight”. Many different models can be used, the simplest is the linear regression. It tries to fit data with the best hyper-plane which goes through the points.Example- Predicting age of a person (because it is a real value, predicting nationality is categorical, whether stock price will increase is discrete-yes/no answer, predicting whether a document is related to UFO is again discrete- a yes/no answer).
+A classification problem is when the output variable is a category, such as “red” or “blue” or “disease” and “no disease”. A classification model attempts to draw some conclusion from observed values. Given one or more inputs a classification model will try to predict the value of one or more outcomes. 
+For example, when filtering emails “spam” or “not spam”, when looking at transaction data, “fraudulent”, or “authorized”. In short Classification either predicts categorical class labels or classifies data (construct a model) based on the training set and the values (class labels) in classifying attributes and uses it in classifying new data.
+
+5)Popular Classification Algorithms:
+Logistic Regression
+Naive Bayes
+K-Nearest Neighbors
+Decision Tree
+Support Vector Machines
+
+6)A support vector machine (SVM) uses algorithms to train and classify data within degrees of polarity, taking it to a degree beyond X/Y prediction. 
+
+For a simple visual explanation, we’ll use two tags: red and blue, with two data features: X and Y, then train our classifier to output an X/Y coordinate as either red or blue.The SVM then assigns a hyperplane that best separates the tags. In two dimensions this is simply a line. Anything on one side of the line is red and anything on the other side is blue. In sentiment analysis, for example, this would be positive and negative.
+
+7)Misclassification costs allow you to specify the relative importance of different kinds of prediction errors. Misclassification costs are basically weights applied to specific outcomes. These weights are factored into the model and may actually change the prediction (as a way of protecting against costly mistakes).
+
+8)The data points or vectors that are the closest to the hyperplane and which affect the position of the hyperplane are termed as Support Vector. Since these vectors support the hyperplane, hence called a Support vector.
+
+9)“Kernel” is used due to a set of mathematical functions used in Support Vector Machine providing the window to manipulate the data. So, Kernel Function generally transforms the training set of data so that a non-linear decision surface is able to transform to a linear equation in a higher number of dimension spaces.
+
+10)The following are some key reasons: SVM is not efficient in handling large sets of datasets. In large datasets, the training time is very high, with classification being difficult due to slower training. The target classes in a large dataset usually overlap, affecting the classification and predictability.The effectiveness of SVM depends on the selection of kernel, kernel's parameters and soft margin parameter C. . Each pair of parameters is checked using cross validation, and the parameters with best cross validation accuracy are picked.
+
+11)SVM model has some excellent advantages such as (a) highly effective (b) efficient memory (c) works well with both semi-structured and unstructured data (d) effective for high dimensional data (e) less overfitting issues (f) works well for small dataset
+
+12)Disadvantages of support vector machine :
+It does not execute very well when the data set has more sound i.e. target classes are overlapping. In cases where the number of properties for each data point outstrips the number of training data specimens, the support vector machine will underperform.
